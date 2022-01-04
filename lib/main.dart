@@ -22,6 +22,7 @@ class HomePage extends StatelessWidget {
           width: 100,
           height: 100,
           decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
               color: Colors.teal,
               gradient: LinearGradient(colors: [
                 Colors.yellow,
