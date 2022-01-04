@@ -23,7 +23,9 @@ class HomePage extends StatelessWidget {
           height: 100,
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
-              boxShadow:[(color:Colors.grey,blurRadius:5)],
+              boxShadow: [
+                BoxShadow(color: Colors.grey, blurRadius: 5)
+              ],
               color: Colors.teal,
               gradient: LinearGradient(colors: [
                 Colors.yellow,
