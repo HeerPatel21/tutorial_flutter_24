@@ -19,6 +19,7 @@ class HomePage extends StatelessWidget {
           color: Colors.teal,
           width: 100,
           height: 100,
+          child: Text("I am a Box"),
         ), //Container
       ), //Center
     ); //Scaffold
