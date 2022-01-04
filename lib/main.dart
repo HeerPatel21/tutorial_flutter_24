@@ -23,6 +23,12 @@ class HomePage extends StatelessWidget {
           height: 100,
           decoration: BoxDecoration(
             color: Colors.teal,
+            gradient: LinearGradient(colors:[
+              color:Colors.red,
+              color: Colors.pink,
+              
+
+            ])
           ), //BoxDecoration
           child: Text("I am a Box"),
         ), //Container
