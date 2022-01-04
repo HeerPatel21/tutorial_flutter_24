@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
                     color: Colors.grey,
                     blurRadius: 5,
                     //spreadRadius: 10,
-                    offset: OffSet(2.0, 5.0)) //BoxShadow
+                    offset: Offset(2.0, 5.0)) //BoxShadow
               ],
               color: Colors.teal,
               gradient: LinearGradient(colors: [
