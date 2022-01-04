@@ -18,9 +18,12 @@ class HomePage extends StatelessWidget {
         child: Container(
           padding: const EdgeInsets.all(8),
           alignment: Alignment.center,
-          color: Colors.purple,
+          //color: Colors.purple,//commented as we need to give color inside decoration property
           width: 100,
           height: 100,
+          decoration: BoxDecoration(
+            color: Colors.teal,
+          ), //BoxDecoration
           child: Text("I am a Box"),
         ), //Container
       ), //Center
