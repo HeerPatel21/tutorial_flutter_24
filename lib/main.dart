@@ -17,6 +17,8 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Container(
           color: Colors.teal,
+          eidth: 100,
+          height: 100,
         ), //Container
       ), //Center
     ); //Scaffold
