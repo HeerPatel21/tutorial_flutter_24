@@ -14,9 +14,11 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Awesome App"),
       ), //AppBar
-      body: Container(
-        child: Center(child: Text("Hi Flutter")),
-      ), //Container
+      body: Center(
+        child: Container(
+          color: Colors.teal,
+        ), //Container
+      ), //Center
     ); //Scaffold
   }
 }
