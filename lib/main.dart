@@ -37,8 +37,11 @@ class HomePage extends StatelessWidget {
               ])), //BoxDecoration
           child: Text(
             "I am a Box",
+            textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
+              fontWeight: FontWeight.bold,
+              fontSize: 20,
             ),
           ),
         ), //Container
