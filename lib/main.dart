@@ -16,6 +16,7 @@ class HomePage extends StatelessWidget {
       ), //AppBar
       body: Center(
         child: Container(
+          padding: const EdgeInsets.all(8),
           color: Colors.teal,
           width: 100,
           height: 100,
