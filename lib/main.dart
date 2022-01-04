@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
           decoration: BoxDecoration(
               color: Colors.teal,
               gradient: LinearGradient(colors: [
-                Colors.red,
+                Colors.yellow,
                 Colors.pink,
               ])), //BoxDecoration
           child: Text("I am a Box"),
