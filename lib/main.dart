@@ -24,7 +24,10 @@ class HomePage extends StatelessWidget {
           padding: EdgeInsets.zero,
           children: <Widget>[
             DrawerHeader(
-              child: Text("Hi,I am drawer"),
+              child: Text(
+                "Hi,I am drawer",
+                style: TextStyle(color: Colors.white), //TextStyle
+              ), //Text
               decoration: BoxDecoration(color: Colors.indigo),
             ),
           ],
