@@ -31,7 +31,7 @@ class HomePage extends StatelessWidget {
               decoration: BoxDecoration(color: Colors.indigo),
             ), //DrawerHeader
             ListTile(
-              Leading: Icon(Icons.person), //icon.person
+              leading: Icon(Icons.person), //icon.person
             ), //ListTile
           ], //Widget
         ), //ListView
