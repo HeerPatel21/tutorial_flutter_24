@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
                 "Hi,I am drawer",
                 style: TextStyle(color: Colors.white), //TextStyle
               ), //Text
-              decoration: BoxDecoration(color: Colors.indigo),
+              decoration: BoxDecoration(color: Colors.purple),
             ), //DrawerHeader
             ListTile(
               leading: Icon(Icons.person), //icon.person
