@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
         title: Text("Awesome App"),
       ), //AppBar
       body: Container(
-        color: Colotrs.black,
+        color: Colors.black,
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
         child: Row(
