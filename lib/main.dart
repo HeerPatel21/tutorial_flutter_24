@@ -22,6 +22,7 @@ class HomePage extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Icon(Icons.edit),
+        hoverColor: Colors.green,
       ),
     ); //scaffold
   }
