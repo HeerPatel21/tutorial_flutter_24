@@ -18,6 +18,8 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
           title: Text("Awesome App"),
         ), //AppBar
-        body: Container()); //scaffold
+        body: Container()
+        floatingActionButton:FloatingActionButton()
+        ); //scaffold
   }
 }
