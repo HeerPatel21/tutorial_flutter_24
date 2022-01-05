@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
         child: ListView(
           children: <Widget>[
             DrawerHeader(
-              child: Container(),
+              child: Text("Hi,I am drawer"),
             ),
           ],
         ),
