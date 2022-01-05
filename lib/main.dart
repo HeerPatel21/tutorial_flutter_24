@@ -24,6 +24,7 @@ class HomePage extends StatelessWidget {
           children: <Widget>[
             DrawerHeader(
               child: Text("Hi,I am drawer"),
+              decoration: BoxDecoration(color: Colors.indigo),
             ),
           ],
         ),
