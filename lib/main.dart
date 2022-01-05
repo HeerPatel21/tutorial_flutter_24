@@ -22,8 +22,22 @@ class HomePage extends StatelessWidget {
             //color: Colors.purple,//commented as we need to give color inside decoration property
             width: 100,
             height: 100,
-            color: Colors.red,
+            color: Colors.green,
           ), //Container
+          Container(
+            padding: const EdgeInsets.all(8),
+            //color: Colors.purple,//commented as we need to give color inside decoration property
+            width: 100,
+            height: 100,
+            color: Colors.yellow,
+          ), //container
+          Container(
+            padding: const EdgeInsets.all(8),
+            //color: Colors.purple,//commented as we need to give color inside decoration property
+            width: 100,
+            height: 100,
+            color: Colors.red,
+          ), //container
         ], //<Widget>
       )), //Center
     ); //Scaffold
