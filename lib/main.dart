@@ -15,10 +15,11 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text("Awesome App"),
-        ), //AppBar
-        body: Container(),
-        floatingActionButton: FloatingActionButton()); //scaffold
+      appBar: AppBar(
+        title: Text("Awesome App"),
+      ), //AppBar
+      body: Container(),
+      floatingActionButton: FloatingActionButton(),
+    ); //scaffold
   }
 }
