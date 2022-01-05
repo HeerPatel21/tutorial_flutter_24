@@ -19,7 +19,10 @@ class HomePage extends StatelessWidget {
         title: Text("Awesome App"),
       ), //AppBar
       body: Container(),
-      floatingActionButton: FloatingActionButton(),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: Icon(Icons.edit),
+      ),
     ); //scaffold
   }
 }
