@@ -16,6 +16,7 @@ class HomePage extends StatelessWidget {
       ), //AppBar
       body: Container(
         width: MediaQuery.of(context).size.width,
+        width: MediaQuery.of(context).size.height,
         child: Row(
           //
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
