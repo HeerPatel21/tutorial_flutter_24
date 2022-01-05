@@ -15,14 +15,17 @@ class HomePage extends StatelessWidget {
         title: Text("Awesome App"),
       ), //AppBar
       body: Center(
-        child: Container(
-          padding: const EdgeInsets.all(8),
-          //color: Colors.purple,//commented as we need to give color inside decoration property
-          width: 100,
-          height: 100,
-          color: Colors.red,
-        ), //Container
-      ), //Center
+          child: Row(
+        children: <Widget>[
+          Container(
+            padding: const EdgeInsets.all(8),
+            //color: Colors.purple,//commented as we need to give color inside decoration property
+            width: 100,
+            height: 100,
+            color: Colors.red,
+          ), //Container
+        ], //<Widget>
+      )), //Center
     ); //Scaffold
   }
 }
