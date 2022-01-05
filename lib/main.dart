@@ -20,12 +20,15 @@ class HomePage extends StatelessWidget {
       ), //AppBar
       body: Container(),
       drawer: Drawer(
-        child:ListView(
-          children:<Widget>[
-            DrawerHeader(child:Container(),),
+        child: ListView(
+          children: <Widget>[
+            DrawerHeader(
+              child: Container(),
+            ),
           ],
-        ),),
+        ),
       ),
+
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Icon(Icons.edit),
