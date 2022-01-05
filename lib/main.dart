@@ -29,15 +29,15 @@ class HomePage extends StatelessWidget {
                 style: TextStyle(color: Colors.white), //TextStyle
               ), //Text
               decoration: BoxDecoration(color: Colors.indigo),
-            ),
-          ],
-        ),
-      ),
+            ), //DrawerHeader
+          ], //Widget
+        ), //ListView
+      ), //Drawer
 
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Icon(Icons.edit),
-      ),
+      ), //floatingActionButton
     ); //scaffold
   }
 }
