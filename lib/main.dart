@@ -36,6 +36,12 @@ class HomePage extends StatelessWidget {
               subtitle: Text("Personal"), //subtitle
               trailing: Icon(Icons.edit), //trailing
             ), //ListTile
+            ListTile(
+              leading: Icon(Icons.email), //icon.mail
+              title: Text("Email"), //title
+              subtitle: Text("heerpatel2754@gmail.com"), //subtitle
+              trailing: Icon(Icons.edit), //trailing
+            ), //ListTile
           ], //Widget
         ), //ListView
       ), //Drawer
