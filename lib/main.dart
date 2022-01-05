@@ -30,6 +30,9 @@ class HomePage extends StatelessWidget {
               ), //Text
               decoration: BoxDecoration(color: Colors.indigo),
             ), //DrawerHeader
+            ListTile(
+              Leading: Icon(Icons.person), //icon.person
+            ), //ListTile
           ], //Widget
         ), //ListView
       ), //Drawer
