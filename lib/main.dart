@@ -14,9 +14,8 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Awesome App"),
       ), //AppBar
-      body: Center(
-          child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.space,
         children: <Widget>[
           Container(
             padding: const EdgeInsets.all(8),
@@ -37,7 +36,7 @@ class HomePage extends StatelessWidget {
             color: Colors.red,
           ), //container
         ], //<Widget>
-      )), //Center
+      ), //row
     ); //Scaffold
   }
 }
