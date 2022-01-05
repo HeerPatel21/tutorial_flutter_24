@@ -34,6 +34,7 @@ class HomePage extends StatelessWidget {
               leading: Icon(Icons.person), //icon.person
               title: Text("Account"), //title
               subtitle: Text("Personal"), //subtitle
+              trailing: Icon(Icons.edit), //trailing
             ), //ListTile
           ], //Widget
         ), //ListView
