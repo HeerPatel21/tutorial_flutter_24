@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(
-    title: "Awesome App",
-    home: HomePage(),
-  )); //MaterialApp
+  runApp(
+    MaterialApp(
+      title: "Awesome App",
+      home: HomePage(),
+    ),
+  ); //MaterialApp
 }
 
 class HomePage extends StatelessWidget {
