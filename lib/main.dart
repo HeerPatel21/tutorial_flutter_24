@@ -15,7 +15,8 @@ class HomePage extends StatelessWidget {
         title: Text("Awesome App"),
       ), //AppBar
       body: Row(
-        mainAxisAlignment: MainAxisAlignment.space,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Container(
             padding: const EdgeInsets.all(8),
