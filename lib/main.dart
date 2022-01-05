@@ -18,8 +18,8 @@ class HomePage extends StatelessWidget {
         padding: const EdgeInsets.all(8.0),
         child: Container(
           color: Colors.black,
-          width: MediaQuery.of(context).size.width,
-          height: MediaQuery.of(context).size.height,
+          width: 200,
+          height: 400,
           child: Padding(
             padding: const EdgeInsets.all(8.0),
             child: Column(
