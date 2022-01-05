@@ -21,6 +21,7 @@ class HomePage extends StatelessWidget {
       body: Container(),
       drawer: Drawer(
         child: ListView(
+          padding: EdgeInsets.zero,
           children: <Widget>[
             DrawerHeader(
               child: Text("Hi,I am drawer"),
