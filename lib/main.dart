@@ -40,7 +40,7 @@ class HomePage extends StatelessWidget {
               leading: Icon(Icons.email), //icon.mail
               title: Text("Email"), //title
               subtitle: Text("heerpatel2754@gmail.com"), //subtitle
-              trailing: Icon(Icons.edit), //trailing
+              trailing: Icon(Icons.send), //trailing
             ), //ListTile
           ], //Widget
         ), //ListView
