@@ -32,6 +32,7 @@ class HomePage extends StatelessWidget {
             ), //DrawerHeader
             ListTile(
               leading: Icon(Icons.person), //icon.person
+              title: Text("Account"), //title
             ), //ListTile
           ], //Widget
         ), //ListView
