@@ -18,6 +18,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   TextEditingController _nameController = TextEditingController();
+  var myText = "Change me";
   @override
   void initState() {
     super.initState();
@@ -44,7 +45,7 @@ class _HomePageState extends State<HomePage> {
                   height: 20,
                 ),
                 Text(
-                  "Change me",
+                  myText,
                   style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                 ), //text
                 Padding(
