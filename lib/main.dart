@@ -27,8 +27,9 @@ class HomePage extends StatelessWidget {
               children: <Widget>[
                 Image.asset(
                   "assets/bg.jpg",
-                  fit: BoxFit.contain,
+                  fit: BoxFit.cover,
                   width: 100,
+                  height: 100,
                 ), //image.asset
               ], //widget
             ), //column
