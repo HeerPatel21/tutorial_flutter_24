@@ -15,12 +15,19 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[200],
       appBar: AppBar(
         title: Text("Awesome App"),
       ), //AppBar
       body: Center(
-        child: Card(),
-      ),
+        child: Card(
+          child: Column(
+            children: <Widget>[
+              Image.asset("assets/Desert.jpg")
+            ], //widget
+          ), //column
+        ), //card
+      ), //center
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
