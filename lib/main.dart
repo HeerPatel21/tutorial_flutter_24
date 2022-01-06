@@ -30,7 +30,7 @@ class HomePage extends StatelessWidget {
             //   ), //Text
             //   decoration: BoxDecoration(color: Colors.purple),
             // ), //DrawerHeader
-            UserAccountDrawerHeader(
+            UserAccountsDrawerHeader(
               accountName: Text("Heer Patel"),
               accountEmail: Text("heerpatel2754@gmail.com"),
             ),
