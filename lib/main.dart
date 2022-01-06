@@ -35,6 +35,12 @@ class HomePage extends StatelessWidget {
                 Text(
                   "Change me",
                   style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                ), //text
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: TextField(
+                    decoration: InputDecoration(hintText: "Enter Something Here"),
+                  ),
                 ),
               ], //widget
             ), //column
