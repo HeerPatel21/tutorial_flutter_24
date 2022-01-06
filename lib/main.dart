@@ -21,29 +21,31 @@ class HomePage extends StatelessWidget {
       ), //AppBar
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Card(
-          child: Column(
-            children: <Widget>[
-              Image.asset(
-                "assets/bg.jpg",
-                fit: BoxFit.cover,
-              ), //image.asset
-              SizedBox(
-                height: 20,
-              ),
-              Text(
-                "Change me",
-                style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-              ), //text
-              Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: TextField(
-                  decoration: InputDecoration(hintText: "Enter Something Here"),
+        child: SingleChildScrollView(
+          child: Card(
+            child: Column(
+              children: <Widget>[
+                Image.asset(
+                  "assets/bg.jpg",
+                  fit: BoxFit.cover,
+                ), //image.asset
+                SizedBox(
+                  height: 20,
                 ),
-              ),
-            ], //widget
-          ), //column
-        ), //padding
+                Text(
+                  "Change me",
+                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                ), //text
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: TextField(
+                    decoration: InputDecoration(hintText: "Enter Something Here"),
+                  ),
+                ),
+              ], //widget
+            ), //column
+          ),
+        ), //SingleChildScrollView
       ), //center
       drawer: Drawer(
         child: ListView(
