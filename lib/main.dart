@@ -33,6 +33,7 @@ class HomePage extends StatelessWidget {
             UserAccountsDrawerHeader(
               accountName: Text("Heer Patel"),
               accountEmail: Text("heerpatel2754@gmail.com"),
+              currentAccountPicture: Image.network(https://media.istockphoto.com/photos/private-spacecraft-module-launch-above-the-clouds-picture-id1207583250?b=1&k=20&m=1207583250&s=170667a&w=0&h=m3ZDOZmqlDuLzTAq2MboxQzeNJYDRSZOP6E44hDQLrk=),
             ),
             ListTile(
               leading: Icon(Icons.person), //icon.person
