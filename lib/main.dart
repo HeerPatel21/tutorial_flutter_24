@@ -29,6 +29,9 @@ class HomePage extends StatelessWidget {
                   "assets/bg.jpg",
                   fit: BoxFit.cover,
                 ), //image.asset
+                SizedBox(
+                  height: 20,
+                ),
                 Text("Change me"),
               ], //widget
             ), //column
