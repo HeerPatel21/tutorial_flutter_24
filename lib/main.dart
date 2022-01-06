@@ -30,6 +30,10 @@ class HomePage extends StatelessWidget {
             //   ), //Text
             //   decoration: BoxDecoration(color: Colors.purple),
             // ), //DrawerHeader
+            UserAccountDrawerHeader(
+              accountName: Text("Heer Patel"),
+              accountEmail: Text("heerpatel2754@gmail.com"),
+            ),
             ListTile(
               leading: Icon(Icons.person), //icon.person
               title: Text("Account"), //title
