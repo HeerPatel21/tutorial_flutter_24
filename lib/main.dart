@@ -32,7 +32,10 @@ class HomePage extends StatelessWidget {
                 SizedBox(
                   height: 20,
                 ),
-                Text("Change me"),
+                Text(
+                  "Change me",
+                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                ),
               ], //widget
             ), //column
           ), //padding
