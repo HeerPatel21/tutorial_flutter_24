@@ -19,33 +19,31 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Awesome App"),
       ), //AppBar
-      body: Center(
-        child: Padding(
-          padding: const EdgeInsets.all(16.0),
-          child: Card(
-            child: Column(
-              children: <Widget>[
-                Image.asset(
-                  "assets/bg.jpg",
-                  fit: BoxFit.cover,
-                ), //image.asset
-                SizedBox(
-                  height: 20,
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Card(
+          child: Column(
+            children: <Widget>[
+              Image.asset(
+                "assets/bg.jpg",
+                fit: BoxFit.cover,
+              ), //image.asset
+              SizedBox(
+                height: 20,
+              ),
+              Text(
+                "Change me",
+                style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+              ), //text
+              Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: TextField(
+                  decoration: InputDecoration(hintText: "Enter Something Here"),
                 ),
-                Text(
-                  "Change me",
-                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-                ), //text
-                Padding(
-                  padding: const EdgeInsets.all(16.0),
-                  child: TextField(
-                    decoration: InputDecoration(hintText: "Enter Something Here"),
-                  ),
-                ),
-              ], //widget
-            ), //column
-          ), //padding
-        ), //card
+              ),
+            ], //widget
+          ), //column
+        ), //padding
       ), //center
       drawer: Drawer(
         child: ListView(
