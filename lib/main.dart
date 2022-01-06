@@ -34,9 +34,10 @@ class HomePage extends StatelessWidget {
               accountName: Text("Heer Patel"),
               accountEmail: Text("heerpatel2754@gmail.com"),
               currentAccountPicture: CircleAvatar(
-                  backgroundImage: NetworkImage(
-                "https://media.istockphoto.com/photos/private-spacecraft-module-launch-above-the-clouds-picture-id1207583250?b=1&k=20&m=1207583250&s=170667a&w=0&h=m3ZDOZmqlDuLzTAq2MboxQzeNJYDRSZOP6E44hDQLrk=",
-              )),
+                backgroundImage: NetworkImage(
+                  "https://media.istockphoto.com/photos/private-spacecraft-module-launch-above-the-clouds-picture-id1207583250?b=1&k=20&m=1207583250&s=170667a&w=0&h=m3ZDOZmqlDuLzTAq2MboxQzeNJYDRSZOP6E44hDQLrk=",
+                ), //BackgroundImage
+              ), //circleAvatar
             ),
             ListTile(
               leading: Icon(Icons.person), //icon.person
