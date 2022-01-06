@@ -23,13 +23,13 @@ class HomePage extends StatelessWidget {
         child: ListView(
           padding: EdgeInsets.zero,
           children: <Widget>[
-            DrawerHeader(
-              child: Text(
-                "Hi,I am drawer",
-                style: TextStyle(color: Colors.white), //TextStyle
-              ), //Text
-              decoration: BoxDecoration(color: Colors.purple),
-            ), //DrawerHeader
+            // DrawerHeader(
+            //   child: Text(
+            //     "Hi,I am drawer",
+            //     style: TextStyle(color: Colors.white), //TextStyle
+            //   ), //Text
+            //   decoration: BoxDecoration(color: Colors.purple),
+            // ), //DrawerHeader
             ListTile(
               leading: Icon(Icons.person), //icon.person
               title: Text("Account"), //title
