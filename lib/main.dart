@@ -39,14 +39,17 @@ class HomePage extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.all(16.0),
                   child: TextField(
-                    decoration: InputDecoration(hintText: "Enter Something Here"),
+                    decoration: InputDecoration(
+                      hintText: "Enter Something Here",
+                      labelText: "Name",
+                    ),
                   ),
                 ),
               ], //widget
             ), //column
-          ),
+          ), //card
         ), //SingleChildScrollView
-      ), //center
+      ), //padding
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
