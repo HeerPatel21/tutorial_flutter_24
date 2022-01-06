@@ -20,12 +20,15 @@ class HomePage extends StatelessWidget {
         title: Text("Awesome App"),
       ), //AppBar
       body: Center(
-        child: Card(
-          child: Column(
-            children: <Widget>[
-              Image.asset("assets/bg.jpg")
-            ], //widget
-          ), //column
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Card(
+            child: Column(
+              children: <Widget>[
+                Image.asset("assets/bg.jpg")
+              ], //widget
+            ), //column
+          ),
         ), //card
       ), //center
       drawer: Drawer(
