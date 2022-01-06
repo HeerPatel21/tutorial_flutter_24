@@ -18,7 +18,9 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Awesome App"),
       ), //AppBar
-      body: Container(),
+      body: Center(
+        child: Card(),
+      ),
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
