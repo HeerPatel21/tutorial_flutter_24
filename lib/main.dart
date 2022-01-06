@@ -40,6 +40,7 @@ class HomePage extends StatelessWidget {
                   padding: const EdgeInsets.all(16.0),
                   child: TextField(
                     decoration: InputDecoration(
+                      border: OutlineInputBorder(),
                       hintText: "Enter Something Here",
                       labelText: "Name",
                     ),
