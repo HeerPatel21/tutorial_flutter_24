@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
         child: Card(
           child: Column(
             children: <Widget>[
-              Image.asset("assets/Desert.jpg")
+              Image.asset("assets/bg.jpeg")
             ], //widget
           ), //column
         ), //card
