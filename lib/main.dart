@@ -25,10 +25,14 @@ class HomePage extends StatelessWidget {
           child: Card(
             child: Column(
               children: <Widget>[
-                Image.asset("assets/bg.jpg")
+                Image.asset(
+                  "assets/bg.jpg",
+                  fit: BoxFit.contain,
+                  width: 100,
+                ), //image.asset
               ], //widget
             ), //column
-          ),
+          ), //padding
         ), //card
       ), //center
       drawer: Drawer(
