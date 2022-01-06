@@ -28,8 +28,6 @@ class HomePage extends StatelessWidget {
                 Image.asset(
                   "assets/bg.jpg",
                   fit: BoxFit.cover,
-                  width: 100,
-                  height: 100,
                 ), //image.asset
               ], //widget
             ), //column
