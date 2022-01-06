@@ -102,7 +102,10 @@ class _HomePageState extends State<HomePage> {
       ), //Drawer
 
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+          myText = _nameController.text;
+          setState(() {});
+        },
         child: Icon(Icons.refresh),
       ), //floatingActionButton
     ); //scaffold
