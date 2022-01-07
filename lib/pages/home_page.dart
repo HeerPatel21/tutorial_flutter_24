@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../bg_image.dart';
 import '../drawer.dart';
-import 'package:http/http.dart';
+import 'package:http/http.dart' as http;
 
 class HomePage extends StatefulWidget {
   @override
@@ -11,6 +11,8 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   TextEditingController _nameController = TextEditingController();
   var myText = "Change me";
+  var url = "https://jasonplaceholder.typicode.com/photos";
+  var data;
   @override
   void initState() {
     super.initState();
@@ -26,7 +28,7 @@ class _HomePageState extends State<HomePage> {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: SingleChildScrollView(
-          child: Card(), //card
+          child: data!=null?Card():Center(child: CircularProgressIndicator(),), //card
         ), //SingleChildScrollView
       ), //padding
       drawer: MyDrawer(),
@@ -41,3 +43,4 @@ class _HomePageState extends State<HomePage> {
     ); //scaffold
   }
 }
+http
