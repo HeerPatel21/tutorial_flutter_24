@@ -28,7 +28,11 @@ class _HomePageState extends State<HomePage> {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: SingleChildScrollView(
-          child: data!=null?Card():Center(child: CircularProgressIndicator(),), //card
+          child: data != null
+              ? Card()
+              : Center(
+                  child: CircularProgressIndicator(),
+                ), //card
         ), //SingleChildScrollView
       ), //padding
       drawer: MyDrawer(),
@@ -43,4 +47,3 @@ class _HomePageState extends State<HomePage> {
     ); //scaffold
   }
 }
-http
