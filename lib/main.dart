@@ -39,10 +39,7 @@ class _HomePageState extends State<HomePage> {
           child: Card(
             child: Column(
               children: <Widget>[
-                Image.asset(
-                  "assets/bg.jpg",
-                  fit: BoxFit.cover,
-                ), //image.asset
+                BgImage(),
                 SizedBox(
                   height: 20,
                 ),
