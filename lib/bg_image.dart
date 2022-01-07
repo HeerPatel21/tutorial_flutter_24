@@ -4,8 +4,8 @@ class BgImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Image.asset(
-                  "assets/bg.jpg",
-                  fit: BoxFit.cover,
-                ), //image.asset
+      "assets/bg.jpg",
+      fit: BoxFit.cover,
+    ); //image.asset
   }
 }
