@@ -27,13 +27,11 @@ class _HomePageState extends State<HomePage> {
       ), //AppBar
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: SingleChildScrollView(
-          child: data != null
-              ? Card()
-              : Center(
-                  child: CircularProgressIndicator(),
-                ), //card
-        ), //SingleChildScrollView
+        child: data != null
+            ? SingleChildScrollView(child: Card())
+            : Center(
+                child: CircularProgressIndicator(),
+              ),
       ), //padding
       drawer: MyDrawer(),
 
