@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'bg_image.dart';
+import 'drawer.dart';
 
 class HomePage extends StatefulWidget {
   @override
