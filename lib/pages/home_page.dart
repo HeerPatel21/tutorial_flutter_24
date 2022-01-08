@@ -16,6 +16,12 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
+    getData();
+  }
+
+  getData() async {
+    var res = await http.get(url);
+    print(res.body);
   }
 
   @override
