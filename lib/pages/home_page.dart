@@ -12,7 +12,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   TextEditingController _nameController = TextEditingController();
   var myText = "Change me";
-  var url = Uri.parse("https://jasonplaceholder.typicode.com/photos");
+  var url = Uri.parse("https://jasonplaceholder.typicode.com/gallery/1");
   var data;
   @override
   void initState() {
