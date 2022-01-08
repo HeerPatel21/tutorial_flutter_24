@@ -37,7 +37,17 @@ class _HomePageState extends State<HomePage> {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: data != null
-            ? SingleChildScrollView(child: Card())
+            ? SingleChildScrollView(
+                child: Card(
+                child: ListView.builder(
+                  itemBuilder: (context, index) {
+                    return ListTile(
+                      title: data[index]["title"],
+                    );
+                  },
+                  itemCount: data.length,
+                ),
+              ))
             : Center(
                 child: CircularProgressIndicator(),
               ),
