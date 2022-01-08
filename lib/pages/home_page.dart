@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../bg_image.dart';
 import '../drawer.dart';
 import 'package:http/http.dart' as http;
+import 'dart:convert';
 
 class HomePage extends StatefulWidget {
   @override
@@ -21,7 +22,7 @@ class _HomePageState extends State<HomePage> {
 
   getData() async {
     var res = await http.get(url);
-    print(res.body);
+    data = jsonDecode(res.body);
   }
 
   @override
