@@ -15,14 +15,14 @@ class _LoginPageState extends State<LoginPage> {
         title: Text("Login Page"),
       ), //AppBar
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(8.0),
         child: SingleChildScrollView(
           child: Card(
             child: Column(
               children: <Widget>[
                 Form(
                     child: Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(16.0),
                   child: Column(
                     children: <Widget>[
                       TextFormField(
@@ -40,11 +40,14 @@ class _LoginPageState extends State<LoginPage> {
                 SizedBox(
                   height: 20,
                 ),
-                RaisedButton(
-                  onPressed: () {},
-                  child: Text("Sign In"),
-                  color: Colors.purple,
-                  textColor: Colors.white,
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: RaisedButton(
+                    onPressed: () {},
+                    child: Text("Sign In"),
+                    color: Colors.purple,
+                    textColor: Colors.white,
+                  ),
                 )
               ], //widget
             ),
