@@ -40,6 +40,12 @@ class _LoginPageState extends State<LoginPage> {
                 SizedBox(
                   height: 20,
                 ),
+                RaisedButton(
+                  onPressed: () {},
+                  child: Text("Sign In"),
+                  color: Colors.purpple,
+                  textColor: Colors.white,
+                )
               ], //widget
             ),
           ), //Column
