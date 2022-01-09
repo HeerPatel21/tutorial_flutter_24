@@ -41,6 +41,7 @@ class _HomePageState extends State<HomePage> {
                 itemBuilder: (context, index) {
                   return ListTile(
                     title: Text(data[index]["title"]),
+                    leading: Image.network(data[index]["url"]),
                   );
                 },
                 itemCount: data.length,
