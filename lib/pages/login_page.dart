@@ -6,17 +6,24 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  final userNameController = TextEditingController
+  final userNameController = TextEditingController();
+  final passwordController = TextEditingController();
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Scaffold(
-      appBar : AppBar(
-        title:Text("Login Page"),
-      ),//AppBar
-      body:SingleChildScrollView(
-        child:Column(),//Column
-      ),//singlechildScrollView
-
-    );//Scaffold
+      appBar: AppBar(
+        title: Text("Login Page"),
+      ), //AppBar
+      body: SingleChildScrollView(
+        child: Column(
+          children: <Widget>[
+            Form(
+                child: Column(
+              children: <Widget>[], //widget
+            )) //form
+          ], //widget
+        ), //Column
+      ), //singlechildScrollView
+    ); //Scaffold
   }
 }
