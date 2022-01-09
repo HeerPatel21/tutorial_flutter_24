@@ -23,6 +23,9 @@ class _LoginPageState extends State<LoginPage> {
                 TextFormField(
                   decoration: InputDecoration(hintText: "Enter Username"),
                 ),
+                TextFormField(
+                  decoration: InputDecoration(hintText: "Enter Password"),
+                ),
               ], //widget
             )) //form
           ], //widget
