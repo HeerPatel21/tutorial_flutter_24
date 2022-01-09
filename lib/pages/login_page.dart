@@ -14,25 +14,33 @@ class _LoginPageState extends State<LoginPage> {
       appBar: AppBar(
         title: Text("Login Page"),
       ), //AppBar
-      body: SingleChildScrollView(
-        child: Column(
-          children: <Widget>[
-            Form(
-                child: Column(
-              children: <Widget>[
-                TextFormField(
-                  decoration: InputDecoration(hintText: "Enter Username", labelText: "Username"),
-                ),
-                SizedBox(
-                  height: 20,
-                ),
-                TextFormField(
-                  decoration: InputDecoration(hintText: "Enter Password", labelText: "Password"),
-                ),
-              ], //widget
-            )) //form
-          ], //widget
-        ), //Column
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: SingleChildScrollView(
+          child: Column(
+            children: <Widget>[
+              Card(
+                child: Form(
+                    child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    children: <Widget>[
+                      TextFormField(
+                        decoration: InputDecoration(hintText: "Enter Username", labelText: "Username"),
+                      ),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      TextFormField(
+                        decoration: InputDecoration(hintText: "Enter Password", labelText: "Password"),
+                      ),
+                    ], //widget
+                  ),
+                )),
+              ) //form
+            ], //widget
+          ), //Column
+        ),
       ), //singlechildScrollView
     ); //Scaffold
   }
