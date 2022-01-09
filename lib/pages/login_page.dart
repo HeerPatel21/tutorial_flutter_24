@@ -43,7 +43,7 @@ class _LoginPageState extends State<LoginPage> {
                 RaisedButton(
                   onPressed: () {},
                   child: Text("Sign In"),
-                  color: Colors.purpple,
+                  color: Colors.purple,
                   textColor: Colors.white,
                 )
               ], //widget
