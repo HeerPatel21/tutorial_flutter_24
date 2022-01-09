@@ -21,10 +21,10 @@ class _LoginPageState extends State<LoginPage> {
                 child: Column(
               children: <Widget>[
                 TextFormField(
-                  decoration: InputDecoration(hintText: "Enter Username"),
+                  decoration: InputDecoration(hintText: "Enter Username", labelText: "Username"),
                 ),
                 TextFormField(
-                  decoration: InputDecoration(hintText: "Enter Password"),
+                  decoration: InputDecoration(hintText: "Enter Password", labelText: "Password"),
                 ),
               ], //widget
             )) //form
