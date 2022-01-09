@@ -17,10 +17,10 @@ class _LoginPageState extends State<LoginPage> {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: SingleChildScrollView(
-          child: Column(
-            children: <Widget>[
-              Card(
-                child: Form(
+          child: Card(
+            child: Column(
+              children: <Widget>[
+                Form(
                     child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Column(
@@ -36,9 +36,9 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                     ], //widget
                   ),
-                )),
-              ) //form
-            ], //widget
+                )) //form
+              ], //widget
+            ),
           ), //Column
         ),
       ), //singlechildScrollView
