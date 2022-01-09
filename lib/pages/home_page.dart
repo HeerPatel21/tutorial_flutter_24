@@ -6,13 +6,13 @@ import 'dart:convert';
 
 class HomePage extends StatefulWidget {
   @override
-  _HomePageState createState() => _HomePageState();
+  _HomePageStae createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage> {
   TextEditingController _nameController = TextEditingController();
   var myText = "Change me";
-  var url = Uri.parse("https://jasonplaceholder.typicode.com/gallery/1");
+  var url = Uri.parse("https://jsonplaceholder.typicode.com/photos");
   var data;
   @override
   void initState() {
