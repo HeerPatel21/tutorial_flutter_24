@@ -23,6 +23,9 @@ class _LoginPageState extends State<LoginPage> {
                 TextFormField(
                   decoration: InputDecoration(hintText: "Enter Username", labelText: "Username"),
                 ),
+                SizedBox(
+                  height: 20,
+                ),
                 TextFormField(
                   decoration: InputDecoration(hintText: "Enter Password", labelText: "Password"),
                 ),
