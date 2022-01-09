@@ -36,10 +36,10 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                     ], //widget
                   ),
-                )) //form
+                )), //form
                 SizedBox(
-                        height: 20,
-                      ),
+                  height: 20,
+                ),
               ], //widget
             ),
           ), //Column
