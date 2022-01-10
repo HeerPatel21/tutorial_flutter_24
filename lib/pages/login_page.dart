@@ -16,7 +16,7 @@ class _LoginPageState extends State<LoginPage> {
         ), //AppBar
         body: Stack(
           children: <Widget>[
-            BgImage()
+            BgImage(),
           ],
         )); //Scaffold
   }
