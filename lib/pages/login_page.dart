@@ -22,9 +22,9 @@ class _LoginPageState extends State<LoginPage> {
             children: <Widget>[
               Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Card(
-                  child: Form(
-                      child: Column(
+                child: Form(
+                    child: Card(
+                  child: Column(
                     children: <Widget>[
                       TextFormField(
                         decoration: InputDecoration(hintText: "Enter Username", labelText: "Username"),
@@ -36,8 +36,8 @@ class _LoginPageState extends State<LoginPage> {
                         decoration: InputDecoration(hintText: "Enter Password", labelText: "Password"),
                       ), //Textformfield
                     ], //widget
-                  )), //column//form
-                ), //card
+                  ),
+                )), //card
               ) //column//form
             ], //widget
           ), //column
