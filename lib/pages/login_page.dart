@@ -42,7 +42,7 @@ class _LoginPageState extends State<LoginPage> {
                     ) //TextFormField
                   ], //widget
                 ), //column
-              )
+              ),
               SizedBox(
                 height:20,
               ),//sizedBox
