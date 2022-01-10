@@ -20,10 +20,17 @@ class _LoginPageState extends State<LoginPage> {
           children: <Widget>[
             Form(
                 child: Column(
-              children: <Widget>[],
-            ))
-          ],
-        ),
+              children: <Widget>[
+                TextFormField(
+                  decoration: InputDecoration(hintText: "Enter Username"),
+                ), //Textformfield
+                TextFormField(
+                  decoration: InputDecoration(hintText: "Enter Password"),
+                ), //Textformfield
+              ], //widget
+            )) //column//form
+          ], //widget
+        ), //column
       ), //SinglChild
     ); //Scaffold
   }
