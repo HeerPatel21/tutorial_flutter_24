@@ -38,6 +38,7 @@ class _LoginPageState extends State<LoginPage> {
                                 height: 20,
                               ), //sizedbox
                               TextFormField(
+                                obscureText: true,
                                 decoration: InputDecoration(hintText: "Enter Password", labelText: "Password"),
                               ), //Textformfield
                             ], //widget
@@ -59,8 +60,8 @@ class _LoginPageState extends State<LoginPage> {
                     ), //column
                   ), //card
                 ), //single child
-              ),
-            ), //pading
+              ), //padding//padding
+            ), //center
           ], //widget
         )); //stack//Scaffold
   }
