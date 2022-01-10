@@ -11,54 +11,20 @@ class _LoginPageState extends State<LoginPage> {
   final passwordController = TextEditingController();
   @override
   Widget build(BuildContext context) {
-    
     return Scaffold(
-        appBar: AppBar(
-          title: Text("Login Page"),
-        ), //AppBar
-        body: Stack(
-          fit: StackFit.expand,
+      appBar: AppBar(
+        title: Text("Login Page"),
+      ), //AppBar
+      body: SingleChildScrollView(
+        child: Column(
           children: <Widget>[
-            BgImage(),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: SingleChildScrollView(
-                child: Card(
-                  child: Column(
-                    children: <Widget>[
-                      TextFormField(
-                        decoration: InputDecoration(
-                          hintText: "Enter Username",
-                          labelText: "Username",
-                        ), //inputDecoration
-                      ), //TextFormField
-                      SizedBox(
-                        height: 20,
-                      ),
-                      TextFormField(
-                        decoration: InputDecoration(
-                          hintText: "Enter Password",
-                          labelText: "Password",
-                  ), //InputDecoration
-                ) //TextFormField
-              ], //widget
-            ), //column
-           child: SizedBox(
-                height:20,
-              ),//sizedBox
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child:RaisedButton(
-                  onPressed:() {},
-                  child:Text("Sign In"),
-                  color:Colors.purple,
-                  textColor:Colors.white,
-                ),//raisedButton
-              )//Padding
-          ),//card
-        ),//SingleChildScrollView
-      ),//Padding
-          ],//Widget
-   )); //Stack//Scaffold
+            Form(
+                child: Column(
+              children: <Widget>[],
+            ))
+          ],
+        ),
+      ), //SinglChild
+    ); //Scaffold
   }
 }
