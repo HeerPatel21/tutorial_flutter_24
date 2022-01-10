@@ -39,7 +39,7 @@ class _LoginPageState extends State<LoginPage> {
                           hintText: "Enter Password",
                           labelText: "Password",
                         ), //InputDecoration
-                      ) //TextFormField
+                      ), //TextFormField
                       child: SizedBox(
                         height:20,
                       ),//sizedBox
