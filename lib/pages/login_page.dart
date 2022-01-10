@@ -11,6 +11,7 @@ class _LoginPageState extends State<LoginPage> {
   final passwordController = TextEditingController();
   @override
   Widget build(BuildContext context) {
+    
     return Scaffold(
         appBar: AppBar(
           title: Text("Login Page"),
@@ -38,14 +39,26 @@ class _LoginPageState extends State<LoginPage> {
                         decoration: InputDecoration(
                           hintText: "Enter Password",
                           labelText: "Password",
-                        ), //InputDecoration
-                      ) //TextFormField
-                    ], //widget
-                  ), //column
-                ),
-              ),
-            ),
-          ],
-        )); //Scaffold
+                  ), //InputDecoration
+                ) //TextFormField
+              ], //widget
+            ), //column
+           child: SizedBox(
+                height:20,
+              ),//sizedBox
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child:RaisedButton(
+                  onPressed:() {},
+                  child:Text("Sign In"),
+                  color:Colors.purple,
+                  textColor:Colors.white,
+                ),//raisedButton
+              )//Padding
+          ),//card
+        ),//SingleChildScrollView
+      ),//Padding
+          ],//Widget
+   )); //Stack//Scaffold
   }
 }
