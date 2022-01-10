@@ -16,6 +16,7 @@ class _LoginPageState extends State<LoginPage> {
           title: Text("Login Page"),
         ), //AppBar
         body: Stack(
+          fit: StackFit.expand,
           children: <Widget>[
             BgImage(),
           ], //widget
