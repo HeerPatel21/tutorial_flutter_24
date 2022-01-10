@@ -16,25 +16,28 @@ class _LoginPageState extends State<LoginPage> {
         title: Text("Login Page"),
       ), //AppBar
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(8.0),
         child: SingleChildScrollView(
           child: Card(
             child: Column(
               children: <Widget>[
                 Form(
-                    child: Column(
-                  children: <Widget>[
-                    TextFormField(
-                      decoration: InputDecoration(hintText: "Enter Username", labelText: "Username"),
-                    ), //Textformfield
-                    SizedBox(
-                      height: 20,
-                    ), //sizedbox
-                    TextFormField(
-                      decoration: InputDecoration(hintText: "Enter Password", labelText: "Password"),
-                    ), //Textformfield
-                  ], //widget
-                )), //column//form
+                    child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    children: <Widget>[
+                      TextFormField(
+                        decoration: InputDecoration(hintText: "Enter Username", labelText: "Username"),
+                      ), //Textformfield
+                      SizedBox(
+                        height: 20,
+                      ), //sizedbox
+                      TextFormField(
+                        decoration: InputDecoration(hintText: "Enter Password", labelText: "Password"),
+                      ), //Textformfield
+                    ], //widget
+                  ), //column
+                )), //padding//form
                 SizedBox(
                   height: 20,
                 ), //sizedbox
