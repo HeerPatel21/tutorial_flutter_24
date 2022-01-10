@@ -40,7 +40,7 @@ class _LoginPageState extends State<LoginPage> {
                           labelText: "Password",
                         ), //InputDecoration
                       ) //TextFormField
-                              child: SizedBox(
+                      child: SizedBox(
                         height:20,
                       ),//sizedBox
                       Padding(
