@@ -55,10 +55,10 @@ class _LoginPageState extends State<LoginPage> {
                   textColor:Colors.white,
                 ),//raisedButton
               )//Padding
-              ),
-              
             ),
-          ],
-        )); //Scaffold
+              
+          ),
+        ],
+     )); //Scaffold
   }
 }
