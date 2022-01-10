@@ -49,7 +49,7 @@ class _LoginPageState extends State<LoginPage> {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child:RaisedButton(
-                  onPressed() {},
+                  onPressed:() {},
                   child:Text("Sign In"),
                   color:Colors.purple,
                   textColor:Colors.white,
