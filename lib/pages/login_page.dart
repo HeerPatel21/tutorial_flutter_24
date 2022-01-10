@@ -51,7 +51,7 @@ class _LoginPageState extends State<LoginPage> {
                           child: RaisedButton(
                             onPressed: () {},
                             child: Text("Sign In"),
-                            color: Colors.purple,
+                            color: Colors.orange,
                             textColor: Colors.white,
                           ), //button
                         ) //padding
