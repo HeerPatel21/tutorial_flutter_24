@@ -35,7 +35,10 @@ class _LoginPageState extends State<LoginPage> {
                         height: 20,
                       ),
                       TextFormField(
-                        decoration: InputDecoration(hintText: "Enter Password", labelText: "Password"), //InputDecoration
+                        decoration: InputDecoration(
+                          hintText: "Enter Password",
+                          labelText: "Password",
+                        ), //InputDecoration
                       ) //TextFormField
                     ], //widget
                   ), //column
