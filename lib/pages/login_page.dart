@@ -35,11 +35,14 @@ class _LoginPageState extends State<LoginPage> {
                     ), //Textformfield
                   ], //widget
                 )) //column//form
+                SizedBox(
+                      height: 20,
+                    ), //sizedbox
               ], //widget
-            ),
-          ), //column
-        ),
-      ), //SinglChild
+            ),//column
+          ), //card
+        ),//single child
+      ), //pading
     ); //Scaffold
   }
 }
