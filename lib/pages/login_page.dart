@@ -43,6 +43,18 @@ class _LoginPageState extends State<LoginPage> {
                   ], //widget
                 ), //column
               )),
+              SizedBox(
+                height:20,
+              ),//sizedBox
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child:RaisedButton(
+                  onPressed() {},
+                  child:Text("Sign In"),
+                  color:Colors.purple,
+                  textColor:Colors.white,
+                ),//raisedButton
+              )//Padding
             ),
           ],
         )); //Scaffold
