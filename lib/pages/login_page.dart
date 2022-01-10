@@ -20,29 +20,24 @@ class _LoginPageState extends State<LoginPage> {
         child: SingleChildScrollView(
           child: Column(
             children: <Widget>[
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Form(
-                    child: Card(
+              Form(
                   child: Column(
-                    children: <Widget>[
-                      TextFormField(
-                        decoration: InputDecoration(hintText: "Enter Username", labelText: "Username"),
-                      ), //Textformfield
-                      SizedBox(
-                        height: 20,
-                      ), //sizedbox
-                      TextFormField(
-                        decoration: InputDecoration(hintText: "Enter Password", labelText: "Password"),
-                      ), //Textformfield
-                    ], //widget
-                  ),
-                )), //card
-              ) //column//form
+                children: <Widget>[
+                  TextFormField(
+                    decoration: InputDecoration(hintText: "Enter Username", labelText: "Username"),
+                  ), //Textformfield
+                  SizedBox(
+                    height: 20,
+                  ), //sizedbox
+                  TextFormField(
+                    decoration: InputDecoration(hintText: "Enter Password", labelText: "Password"),
+                  ), //Textformfield
+                ], //widget
+              )) //column//form
             ], //widget
           ), //column
-        ), //singleChild
-      ), //padding
+        ),
+      ), //SinglChild
     ); //Scaffold
   }
 }
