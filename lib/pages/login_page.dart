@@ -34,14 +34,14 @@ class _LoginPageState extends State<LoginPage> {
                       decoration: InputDecoration(hintText: "Enter Password", labelText: "Password"),
                     ), //Textformfield
                   ], //widget
-                )) //column//form
+                )), //column//form
                 SizedBox(
-                      height: 20,
+                  height: 20,
                 ), //sizedbox
               ], //widget
-            ),//column
+            ), //column
           ), //card
-        ),//single child
+        ), //single child
       ), //pading
     ); //Scaffold
   }
