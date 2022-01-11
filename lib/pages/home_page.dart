@@ -3,6 +3,7 @@ import '../bg_image.dart';
 import '../drawer.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
+import 'package:tutorial/utils/Constants.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -34,7 +35,12 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text("Awesome App"),
         actions: <Widget>[
-          IconButton(icon: Icon(Icons.exit_to_app), onPressed: () {})
+          IconButton(
+              icon: Icon(Icons.exit_to_app),
+              onPressed: () {
+                Constants.prefs.setBool("loggedIn", false);
+                Navigator.pushReplacedName(context, "/login");
+              })
         ],
       ), //AppBar
       body: Padding(
