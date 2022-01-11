@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text("Awesome App"),
         actions: <Widget>[
-          IconButton(icon: (Icons.exit_to_app), onPressed: () {})
+          IconButton(icon: Icon(Icons.exit_to_app), onPressed: () {})
         ],
       ), //AppBar
       body: Padding(
