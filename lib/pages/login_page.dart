@@ -55,8 +55,8 @@ class _LoginPageState extends State<LoginPage> {
                               // Navigator.push(context,
                               //  MaterialPageRoute(
                               //    builder: (context) => HomePage()));
-
-                              Navigator.pushNamed(context, "/home");
+                              Constants.prefs.setBool("loggedIn", true);
+                              Navigator.pushReplacedName(context, "/home");
                             },
                             child: Text("Sign In"),
                             color: Colors.orange,
