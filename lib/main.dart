@@ -10,6 +10,7 @@ Future main() async {
   Constants.prefs = await SharedPreferences.getInstance();
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Awesome App",
       home: Constants.prefs.getBool("loggedIn") == true ? HomePage() : LoginPage(),
       theme: ThemeData(
