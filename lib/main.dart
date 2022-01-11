@@ -10,10 +10,12 @@ void main() {
         home: LoginPage(),
         theme: ThemeData(
           primarySwatch: Colors.purple,
-        )),
-    routes: {
+        ),
+        routes: {
       "/login": (context) => LoginPage(),
       "/home": (context) => HomePage(),
+      ),
+    
     },
   ); //MaterialApp
 }
