@@ -5,7 +5,7 @@ import 'pages/login_page.dart';
 import 'package:tutorial/utils/Constants.dart';
 
 Future main() async {
-  WidgetFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
 
   Constants.prefs = await SharedPreferences.getInstance();
   runApp(
