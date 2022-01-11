@@ -56,7 +56,7 @@ class _LoginPageState extends State<LoginPage> {
                               //  MaterialPageRoute(
                               //    builder: (context) => HomePage()));
 
-                              Naviogator.pushNamed(context, "/home");
+                              Navigator.pushNamed(context, "/home");
                             },
                             child: Text("Sign In"),
                             color: Colors.orange,
