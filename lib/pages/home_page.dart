@@ -31,9 +31,12 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[200],
-      appBar: AppBar(title: Text("Awesome App"), actions: <Widget>[
-        IconButton(icon: (Icons.exit_to_app), onPressed: () {})
-      ]), //AppBar
+      appBar: AppBar(
+        title: Text("Awesome App"),
+        actions: <Widget>[
+          IconButton(icon: (Icons.exit_to_app), onPressed: () {})
+        ],
+      ), //AppBar
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: data != null
