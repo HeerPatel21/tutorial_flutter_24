@@ -11,7 +11,7 @@ Future main() async {
   runApp(
     MaterialApp(
       title: "Awesome App",
-      home: LoginPage(),
+      home: Constants.prefs.getBool("loggedIn") == true ? HomePage() : LoginPage(),
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
