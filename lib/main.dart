@@ -10,5 +10,9 @@ void main() {
         theme: ThemeData(
           primarySwatch: Colors.purple,
         )),
+    routes: {
+      "/login": (context) => LoginPage(),
+      "/home": (context) => HomePage(),
+    },
   ); //MaterialApp
 }
