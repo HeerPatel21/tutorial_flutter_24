@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
               icon: Icon(Icons.exit_to_app),
               onPressed: () {
                 Constants.prefs.setBool("loggedIn", false);
-                Navigator.pushReplacementName(context, "/login");
+                Navigator.pushReplacementNamed(context, "/login");
               })
         ],
       ), //AppBar
